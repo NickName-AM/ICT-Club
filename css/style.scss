@@ -195,6 +195,7 @@ span{
                         .location, .time, .prize{
                             line-height: 2.5;
                             display: flex;
+                            font-size: 500;
                             .text-item{
                                 padding-left: 10px;
                             }
@@ -330,6 +331,65 @@ span{
                 box-shadow: 0 15px 30px #00000033;
             }
         }
+    }
+}
+
+// Event Detail
+.event-detail{
+    padding: 100px 0;
+    .detail{
+        width: var(--width);
+        margin: auto auto;
+        .event-banner{
+            img{
+                width: 900px;
+                height: 300px;
+                object-fit: cover;
+            }
+        }
+
+        .event-header{
+            h2{
+                font-size: 2.2rem;
+                font-weight: 600;
+                color: var(--color-primary);
+                line-height: 2;
+            }
+            .info{
+                .location, .time, .prize{
+                    line-height: 2;
+                    display: flex;
+                    font-size: 500;
+                    .text-item{
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+
+        .event-body{
+            padding-top: 10px;
+            .e-b-header{
+                font-size: 1.8rem;
+                line-height: 2;
+                h3{
+                    font-weight: 400;
+                    color: var(--color-primary);
+                }
+            }
+
+            .e-b-para{
+                width: 95%;
+                margin: auto auto;
+                font-size: 1.25rem;
+                color: var(--color-grey-1);
+                p{
+                    line-height: 1.5;
+                    margin: 20px 0;
+                }
+            }
+        }
+
     }
 }
 
