@@ -6,13 +6,15 @@
 
 ## To Do
 ```
-Pick better colors
 about page
 members page
-complete home page
+contact page (hopefully)
 ```
 
 ## Completed
 ```
+Navbar
+home page
 Event page
+Footer
 ```
