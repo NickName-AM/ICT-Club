@@ -7,8 +7,6 @@
 ## To Do
 ```
 about page
-members page
-contact page (hopefully)
 ```
 
 ## Completed
@@ -16,5 +14,7 @@ contact page (hopefully)
 Navbar
 home page
 Event page
+members page
+contact page
 Footer
 ```
