@@ -6,13 +6,14 @@
 
 ## To Do
 ```
-about page
+A bit of css
 ```
 
 ## Completed
 ```
 Navbar
 home page
+about page
 Event page
 members page
 contact page
