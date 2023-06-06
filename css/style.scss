@@ -12,6 +12,7 @@ img{
     height: 100%;
     object-fit: cover;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 a{
@@ -497,4 +498,79 @@ ul, li{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+
+
+// Media Queries
+
+@media screen and (max-width: 991px) {
+    
+    .main{
+        .container{
+            > .row{
+                .section-text-1{
+                    margin-top: 20px;
+                }
+            }
+        }
+        .hideme{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .header{
+        .container{
+            .row{
+                .col{
+                    .head-item-1{
+                        font-size: 2rem;
+                    }
+
+                    .head-item-2{
+                        font-size: 6rem;
+                    }
+
+                    .head-item-3{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .main{
+        .container{
+            > .row{
+                .subhead-text{
+                    font-size: 2.5rem;
+                }
+
+                .section-text-1{
+                    font-size: 1rem;
+                }
+
+                .section-text-2{
+                    font-size: 35px;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 524px) {
+    .footer-note{
+        flex-direction: column;
+        >*{
+            margin: 10px 0;
+        }
+        .footer-logo{
+            order: -1;
+        }
+    }
 }
